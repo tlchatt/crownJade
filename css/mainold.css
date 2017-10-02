@@ -1,0 +1,537 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Padding and Spacing
+   ========================================================================== */
+html,body { height:100%; 
+overflow: hidden;}
+
+.top{
+    height: 20vh;
+    width: 100vw;
+    background-color: #6d213f;
+    /* position: fixed; */
+    top: 0px;
+    position: fixed;
+    z-index: 100;}
+
+.mid{
+   
+    width:101.25vw;
+       left: 0px;
+    top: 20vh;
+    position: absolute;
+   ;
+   overflow:scroll;
+    height:73.25vh;
+    padding-bottom: 75px;}
+
+.bottom{
+    height:10vh; 
+    width:100vw;
+ background-color: #6d213f;
+    /* position: fixed; */
+    bottom: 0px;
+    position: fixed;
+    z-index: 100;}
+
+.containertop {
+    width:85vw;
+    height:20vh;
+  margin-right: auto;
+  margin-left: auto;
+    overflow: hidden;
+}
+.containermid {
+  width:85vw;
+  margin-right: auto;
+  margin-left: auto;
+    margin-top: -2rem;
+    padding-top: 2rem;
+
+}
+
+.containerbottom {
+    width:85vw;
+    height:10vh;
+  margin-right: auto;
+  margin-left: auto;
+overflow: hidden;
+}
+
+@media (min-width: 768px) {
+
+  }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+.navbar {height:20vh;
+    width: 85vw;}
+
+.footerfixedbottom{
+    bottom: 0;
+    border-width: 0 0 1px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height:10vh;
+}
+
+.navbar-logo{
+    padding:0rem 2rem 0rem .75rem;
+}
+
+.navbar-logo > a > img {max-height:20vh}
+
+.navbar-logo-text {display:inline; float: right; margin-top:4rem;}
+
+.navbar-nav > li  {
+    height:20vh;
+    width:12.5vw;
+    padding-top:5rem;
+    display:block;
+}
+.navbar-nav > li > a {
+    height:4vh;
+    width:12.5vw;
+    padding-top:5rem;
+    display:inline;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.logo > a {
+    padding:0rem !important;
+}
+
+.footer-right {
+    padding: 0px;
+    padding-top: 0rem;
+    width: 30vw;
+    height: 10vh;
+
+}
+.footer-logo{
+ padding:0rem 1rem 0rem 2rem;
+    float:right;
+}
+.footer-logo > a > img {max-height:10vh}
+.footer-logo-text {display:inline; float: left; margin-bottom:2rem;}
+
+
+@media (min-width: 768px) {
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+/* ==========================================================================
+   Borders
+   ========================================================================== */
+.containertop {
+    border-left: 2px solid #E8EAF6;
+    border-right: 2px solid #E8EAF6;
+}
+.containermid {
+    border-left: 2px solid #E8EAF6;
+    border-right: 2px solid #E8EAF6;
+}
+.containerbottom {
+    border-left: 2px solid #E8EAF6;
+    border-right: 2px solid #E8EAF6;
+}
+.bottom{
+    background-color:#6d213f;
+}
+.navbar-logo {
+}
+.navbar-nav > li {
+    border-left: 1px solid #E8EAF6;
+}
+.bx-prev {border-right: 1px solid #E8EAF6;}
+.bx-next {border-left: 1px solid #E8EAF6;}
+
+/* ==========================================================================
+   Non text Colors
+   ========================================================================== */
+body{background-color:rgba(50, 32, 86, .30);}
+
+
+.navbar-default {
+  background-color: #6d213f;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #777;
+}
+.navbar-default .navbar-link:hover {
+  color: #333;
+}
+.navbar-default .btn-link {
+  color: #777;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #333;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+/* ==========================================================================
+   Text Styles
+   ========================================================================== */
+html{
+    font-size:16px;
+    font-weight: 400;
+      color: rgba(255,255,255,0.87);
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    line-height: 1.42857143;
+    font-weight: 400;
+}
+body{
+   font-size:1rem;
+    color: rgba(255,255,255,0.87);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+a, 
+li,
+{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3,
+{
+   font-weight: 600;
+}
+
+a, 
+li,{
+    font-weight:400;
+    
+}
+
+.navbar-nav > li > a {
+    letter-spacing: 0.075em;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.15rem;
+}
+
+
+
+h1{
+    color: rgba(255,255,255,0.97);
+        margin: .67em 0;
+        font-size:2rem;
+        line-height: 1.1;  
+        margin-top: 20px;
+       margin-bottom: 10px;
+}
+
+h2{
+        color: rgba(255,255,255,0.95);
+        font-size:1.85rem;
+}
+h3{
+        color: rgba(255,255,255,0.93);
+        font-size:1.75rem;
+}
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.91);
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+.navbar-nav > li > a {
+    text-align:center;
+    color: rgba(255,255,255,0.91);
+}
+.navbar-default .navbar-text {
+  color: rgba(255,255,255,0.91)
+}
+.navbar-default .navbar-nav > li > a {
+  color: rgba(255,255,255,0.91);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:rgba(255,255,255,0.95);
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  rgba(255,255,255,0.97);
+
+}
+/* ==========================================================================
+   slider classes
+   ========================================================================== */
+.bx-wrapper .bx-controls-direction a {
+    background-color:rgba(0,0,0,.40);
+}
+.bx-wrapper .bx-controls-direction a:hover {
+    background-color:rgba(0,0,0,.60);
+}
+   
+.bx-prev {left:0px;}
+.bx-next {right:0px;}
+.glyphicon {
+    margin:7px;
+    font-size:2.5rem;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+.glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+
+.bx-prev .glyphicon {
+    position:relative;
+    top:45%;
+    float:left;
+}
+.bx-next .glyphicon {
+        position:relative;
+        top:45%;
+    float:right;
+}
+
+/* ==========================================================================
+   Front Page Boxes
+   ========================================================================== */
+.box{
+   padding:20px 20px 20px 20px;
+   
+}
+
+.box-inner:hover {
+
+    -webkit-box-shadow: -2px 2px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 3px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 3px 0px rgba(0,0,0,0.75);
+
+}
+.box h2{
+  font-size:1.25rem;
+   
+}
+
+.box-inner{
+    height:45vh;
+        width:100%;
+    background-color: rgba(0,0,0,.50);
+}
+
+.box-inner-top{
+    background-color:rgba(109, 33, 63, .75);
+}
+
+.box-heading{
+    text-align:center;
+    padding-top:10px;
+}
+#boxinner1{
+    background-image: url("http://crownjade.tlchatt.com/wp-content/uploads/2016/01/Hempcrete-house-outside.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+/* ==========================================================================
+   Post vertical image
+   ========================================================================== */
+.featured{
+    display:inline;
+}
+
+.post-text {
+    display:inline;
+    float:left;
+}
+.post-text p{
+ 
+}.featured-image-vert{
+    float: right;
+    max-height: 20rem;
+    width: auto;
+    margin-left: 2.5rem;
+    margin-bottom: 1.75rem;
+    margin-top:1.75rem;
+    /* padding-left: 1.5rem; */
+    /* padding-bottom: 1.5rem; */
+    /* border-left: 1px solid #e8eaf6; */
+    /* border-bottom: 1px solid #e8eaf6; */
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+  
+}
+
+
+.page-title{
+    text-align:center;
+    padding-bottom:1.5rem;
+    margin:1.5rem 0 1.5rem 0;
+    border-bottom:1px solid #e8eaf6;
+}
+.featured-projects{
+    text-align:center;
+    padding-bottom:1.5rem;
+    margin:1.5rem 0 1.5rem 0;
+     border-bottom:1px solid #e8eaf6;
+    font-size:1.75rem;
+}
+
+.slider-popup{
+    position: absolute;
+    bottom: -50px;
+    right:0px;
+    width: 40vw;
+    background-color: rgba(0,0,0,.40);
+}
+.slider-popup:hover{
+  
+    bottom: 0px;
+    right:0px;
+    background-color: rgba(0,0,0,.40);
+}
+
+.slider-h2{
+     text-align: center;
+    
+}

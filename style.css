@@ -1,0 +1,18 @@
+/*
+Theme Name: Technologic Theme for Crown Jade Designs and Engineering
+Theme URI: http://tlchatt.com
+Description: Custom WordPress theme for Crown Jade deigns built by Technologic of Chattanooga<a href="http://tlchatt.com">How to Build a WordPress Theme with Bootstra</a>.
+Author: Greggory Wiley
+Author URI: http://tlchatt.com/
+Version: 1.0
+Tags: responsive, bootstrap.
+
+License: Copywrite Technologic
+License URI: http://tlchatt.com
+
+*/
+
+@import url('css/bootstrap.css'); 
+@import url('css/main.css'); 
+@import url('css/jquery.bxslider.css'); 
+

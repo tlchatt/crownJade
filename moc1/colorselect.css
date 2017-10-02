@@ -1,0 +1,117 @@
+
+
+html{
+    
+background-color:#000000;
+}
+.colorselectnav {
+    padding-top: 2em;
+    background: #000000;
+}
+
+.colorselectul li{
+display: inline;
+list-style-type: none;
+padding: 1em 1.5em;
+cursor: pointer;  
+}
+
+
+.positivetext h1 {
+color:rgba(0,0,0,0.95)!important;
+}
+.positivetext h2 {
+color:rgba(0,0,0,0.93)!important;
+}
+.positivetext p, li {
+color:rgba(0,0,0,0.91)!important;
+}
+.negativetext h1 {
+color:rgba(255,255,255,0.95)!important;
+}
+.negativetext h2 {
+color:rgba(255,255,255,0.93)!important;
+}
+.negativetext p, li {
+color:rgba(255,255,255,0.91)!important;
+}
+
+
+
+/*****************Color Scheme 1***************************/
+.body_background {
+ background-color:#6d213f;   
+}
+
+.header_background {
+background-color:#FAFAFA;  
+}
+
+/*****************Color Scheme 1***************************/
+.body_background2 {
+ background-color:#6d213f;   
+}
+
+.header_background2 {
+background-color:#F5F5F5;  
+}
+/*****************Color Scheme 1***************************/
+.body_background3 {
+ background-color:#6d213f;   
+}
+
+.header_background3 {
+background-color:#EEEEEE;  
+}
+
+/*****************Color Scheme 1***************************/
+.body_background4 {
+ background-color:#6d213f;   
+}
+
+.header_background4 {
+background-color:#E8EAF6;  
+}
+/****************Color Scheme 2****************************/
+.body_background5 {
+ background-color:#6d213f;   
+}
+
+.header_background5 {
+background-color:#757575;  
+}
+/****************Color Scheme 3****************************/
+
+.body_background6 {
+ background-color:#6d213f;   
+}
+
+.header_background6 {
+background-color:#616161;  
+}
+/****************Color Scheme 4****************************/
+
+.body_background7{
+ background-color:#9c27b0;   
+}
+
+.header_background7 {
+background-color:#E8EAF6;
+}
+/****************Color Scheme 5****************************/
+.body_background8 {
+ background-color:#263238;   
+}
+
+.header_background8 {
+background-color:#E8EAF6; 
+}
+/****************Color Scheme 6****************************/
+
+.body_background9{
+ background-color:#E8EAF6;   
+}
+
+.header_background9 {
+background-color:#263238;
+}
